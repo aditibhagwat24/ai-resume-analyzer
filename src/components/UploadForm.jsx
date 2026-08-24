@@ -69,7 +69,7 @@ export default function UploadForm() {
             value={jobDescription}
             onChange={(e) => setJobDescription(e.target.value)}
             rows={5}
-            placeholder="Job description paste kara..."
+            placeholder="paste job description here..."
             className="w-full text-sm border border-[#16213E]/15 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#E8A33D]/50"
           />
         </div>
